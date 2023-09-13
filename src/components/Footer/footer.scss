@@ -1,0 +1,20 @@
+footer {
+    padding: 0.35rem;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+
+    span {
+        font-weight: 500;
+    }
+
+    span:nth-child(1) {
+        color: white;
+    }
+
+    span:nth-child(2) {
+        cursor: "pointer";
+        color: #8e24aa !important;
+        margin-left: 5px;
+    }
+}
